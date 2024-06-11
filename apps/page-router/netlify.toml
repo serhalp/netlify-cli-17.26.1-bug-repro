@@ -1,0 +1,6 @@
+[build]
+command = "turbo build --filter page-router"
+publish = "apps/page-router/.next"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
